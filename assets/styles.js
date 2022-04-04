@@ -33,16 +33,16 @@ function func7(){
     document.getElementById("btn7").innerHTML = "VIOLET";
 }
 
+
+//                  Rainbow Heading. 
+//   (GOT THIS ON STACK OVERFLOW AND REALLY LIKED IT.)
+
 window.addEventListener("load", function() {
     var elements = document.getElementsByClassName("rainbowText");
     for (let i = 0; i < elements.length; i++) {
       generateRainbowText(elements[i]);
     }
   });
-  
-
-//                  Rainbow Heading. 
-//   (GOT THIS ON STACK OVERFLOW AND REALLY LIKED IT.)
   
   function generateRainbowText(element) {
     var text = element.innerText;
