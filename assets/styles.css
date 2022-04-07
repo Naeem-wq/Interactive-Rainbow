@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+h1{
+  font-size: 4rem;
+}
+
 body{
     text-align: center;
     background-color:rgb(17, 59, 57);
@@ -12,6 +16,6 @@ button{
   background-color: white;
   color: black;
   text-align: center;
-  width: 55%;
+  width: 80%;
+  height: 50px;
 }
-
