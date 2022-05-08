@@ -1,17 +1,17 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-h1{
+h1 {
   font-size: 4rem;
 }
 
-body{
-    text-align: center;
-    background-color:rgb(17, 59, 57);
+body {
+  text-align: center;
+  background-color: rgb(17, 59, 57);
 }
 
-button{
+button {
   padding: 1px;
   background-color: white;
   color: black;
